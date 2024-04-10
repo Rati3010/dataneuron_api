@@ -1,5 +1,5 @@
 import Collection from '../models/collection.model.js';
-import UpdateTracking from '../models/updatecount.model.js';
+import UpdateTracking from '../models/updateCount.model.js';
 import { errorHandler } from '../utils/error.js';
 
 export const getCollection = async (req, res, next) => {
